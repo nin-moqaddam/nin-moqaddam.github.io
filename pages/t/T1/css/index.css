@@ -1,0 +1,15 @@
+p{
+    font-size: 15px;
+    text-align: right;
+    direction: rtl;
+    right: 15px;
+    bottom: 0;
+}
+
+img {
+    filter:brightness(55%);
+
+}
+img:hover {
+    filter: none;
+}
