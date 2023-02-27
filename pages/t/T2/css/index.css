@@ -1,0 +1,78 @@
+hr {
+    width: 90% !important;
+}
+
+.hover:hover img {
+    scale: 1.1;
+}
+
+/* xs-s */
+@media all and (max-width:767px) {
+    .size {
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+    }
+
+    img {
+        width: 180px;
+        transition: all 1s ease 0s;
+    }
+
+    p,
+    strong {
+        font-size: calc(7px + 1vw);
+    }
+}
+
+/* md */
+@media all and (min-width:768px) and (max-width:991px) {
+    .size {
+        overflow: hidden;
+    }
+
+    img {
+        transition: all 1s ease 0s;
+        width: 100% !important;
+    }
+
+    p,
+    strong {
+        font-size: calc(5px + 1vw);
+    }
+}
+
+/* lg */
+@media all and (min-width:992px) and (max-width:1199px) {
+    .frame {
+        overflow: hidden;
+    }
+
+    img {
+        transition: all 1s ease 0s;
+        width: 100% !important;
+    }
+
+    p,
+    strong {
+        font-size: calc(4px + 1vw);
+    }
+
+}
+
+/* xl-xxl */
+@media all and (min-width:1200px) {
+    .size {
+        overflow: hidden;
+    }
+
+    img {
+        transition: all 1s ease 0s;
+        width: 100% !important;
+    }
+
+    p,
+    strong {
+        font-size: calc(3px + 1vw);
+    }
+}
